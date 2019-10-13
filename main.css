@@ -296,10 +296,13 @@ opacity:1;
     }
 
     /* card2 */
+.position_card2 {
+    position: relative;
+    }
 .card2_container {
     width:22.5%;
     position: absolute;
-    top:23.1%;
+    top:0;
     right: 15.3%;
     display: grid;
     grid-auto-flow: row;

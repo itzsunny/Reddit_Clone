@@ -56,7 +56,7 @@ function myFetch (url) {
 };
 
 function handleSearch() {
-let url = `http://api.reddit.com/r/${input.value}`;
+let url = `https://api.reddit.com/r/${input.value}`;
 console.log(url);
 myFetch(url)
 .then(res => { 
